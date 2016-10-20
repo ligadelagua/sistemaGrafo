@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombreC: MyString
+  titulo: MyString
+  recursoUrl: MyString
+  recursoUpload: 
+
+two:
+  nombreC: MyString
+  titulo: MyString
+  recursoUrl: MyString
+  recursoUpload: 

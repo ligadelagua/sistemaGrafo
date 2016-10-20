@@ -1,0 +1,93 @@
+<!-- Header -->
+<header id="header">
+  <div class="main-content">
+    <div class="inner">
+      <div class="content rubberBand">
+        <h1>Liga del agua</h1>
+        <h3>Ingenieros sin Fronteras</h3>
+        <img src="/assets/uelbosque.png" alt="U. El Bosque">
+        <a href="#" class="button big alt icon fa-play-circle klanimate" data-animation="elastic" data-y="-10" data-repeat="-1"></a>
+      </div>
+      <a href="#" class="button hidden"><span></span></a>
+    </div>
+  </div>
+  <canvas id="demo-canvas"></canvas>
+</header>
+
+<!-- Main -->
+ <% @org.each do |o| %>
+   <input type="hidden" class="nombre" value= "<%= o.nombre %>">
+   <input type="hidden" class="descripO" value= "<%= o.descripcion %>">
+   <input type="hidden" class="logo" value= "<%= o.logo %>">
+   <input type="hidden" class="banner" value= "<%= o.banner %>">
+ <% end %>
+ 
+ <% @cop.each do |c| %>
+   <input type="hidden" class="org1" value= "<%= c.organizacion1 %>">
+   <input type="hidden" class="org2" value= "<%= c.organizacion2 %>">
+   <input type="hidden" class="descripC" value= "<%= c.descripcion %>">
+   <input type="hidden" class="bannerC" value= "<%= c.banner %>">
+ <% end %>
+ 
+ <% @recO.each do |ro| %>
+   <input type="hidden" class="nomO" value= "<%= ro.nombreO %>">
+   <input type="hidden" class="tituloO" value= "<%= ro.titulo %>">
+   <input type="hidden" class="urlO" value= "<%= ro.recursoUrl %>">
+   <input type="hidden" class="uploadO" value= "<%= ro.recursoUpload %>">
+ <% end %>
+ 
+ <% @recC.each do |rc| %>
+   <input type="hidden" class="nomC" value= "<%= rc.nombreC %>">
+   <input type="hidden" class="tituloC" value= "<%= rc.titulo %>">
+   <input type="hidden" class="urlC" value= "<%= rc.recursoUrl %>">
+   <input type="hidden" class="uploadC" value= "<%= rc.recursoUpload %>">
+ <% end %>
+
+<div id="network"> </div>
+
+<div class="card node-info animated hidden centrar klanimate" data-animation="elastic" data-y="-15" data-repeat="-1">
+ 
+  <div class="card-image">
+    <img id="logos">
+  </div>
+
+  <div class="card-content">
+    <strong><h1 id="orgDescripcion"></h1></strong>
+      <div class="scrollbar" id="style-7">
+        <h3 id="descripcion"></h3>
+      </div>
+  </div>
+  <div><button class="boton activator"><i class="fa fa-leaf"></i> ¡Ver más!</button></p>
+  </div>
+
+  <div class="card-reveal">
+    <span class="card-title"><strong><span id="orgRecurso"></span><strong><i class="icon fa-times-circle fa-pull-right"></i></span>
+    <h3 id="recursos"></h3>
+  </div>
+  <!-- Recurso adicional a mostrar -->
+</div>
+
+
+<!-- Footer -->
+<footer id="footer">
+  <a href="#" class="info fa fa-info-circle klanimate" data-animation="elastic" data-y="-15" data-repeat="-1" "><span></span></a>
+	<div class="inner ">
+		<div class="content">
+			<h3>Proyecto: Liga del agua</h3>
+			<p id="mitad">Fortalecimiento de la gestión comunitaria del recurso hídrico,<br>
+			por medio de la disminución del consumo de este, utilizando TP y TIC.</p>
+		
+			<ul class="icons">
+				<li><img class="ico" src="/assets/Gobernacion.png"></li>
+				<li><img class="ico" src="/assets/ISF.jpg"></li>
+		    <li><img class="ico" src="/assets/liga.png"></li>
+			  <li><img class="ico" src="/assets/Uniandes.png"></li>
+			  <li><img class="ico" src="/assets/uniminuto.png"></li>
+				<li><img class="ico" src="/assets/uelbosquelogo.png"></li>
+			</ul>
+    
+    </div>
+	</div>
+</footer>
+
+    

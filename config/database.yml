@@ -1,0 +1,25 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: mydatabase
+  pool: 5
+  username: ubuntu  
+  password: ubuntu
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: mydatabase
+  pool: 5
+  username: ubuntu 
+  password: ubuntu 
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: mydatabase
+  pool: 5
+  username: ubuntu 
+  password: ubuntu 
