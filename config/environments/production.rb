@@ -24,13 +24,13 @@ Rails.application.configure do
   # Apache or NGINX already handles this.
   config.serve_static_files = ENV['RAILS_SERVE_STATIC_FILES'].present?
   
-  config.secret_key = '3f2bcf7461d623449f0ba12b5a735f1378183cd67d51f4143d42d8553b0cd6d21daf54c722694766eef1f953a6d60953e000306509bd17726c2a84f66cca1de2'
+  
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
-  config.assets.compile = true
+  config.assets.compile = false
 
   # Asset digests allow you to set far-future HTTP expiration dates on all assets,
   # yet still be able to expire them through the digest params.
