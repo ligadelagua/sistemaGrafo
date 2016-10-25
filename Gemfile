@@ -28,7 +28,7 @@ gem 'pg'
 gem 'paperclip'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-gem "bundler"
+gem 'bundler'
 gem 'rails_12factor', group: :production
 
 # Use Unicorn as the app server

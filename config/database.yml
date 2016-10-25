@@ -1,25 +1,25 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: d2ppb09cpu8f35
+  database: mydatabase
   pool: 5
-  username: cyvjzbxgqmenyb  
-  password: YpZ4y0HN2LNSaGRIqNPIBBwJNH
-  host: ec2-23-23-237-146.compute-1.amazonaws.com
+  username: ubuntu  
+  password: ubuntu
+  host: localhost
 
 test:
   adapter: postgresql
   encoding: unicode
-  database: d2ppb09cpu8f35
+  database: mydatabase
   pool: 5
-  username: cyvjzbxgqmenyb 
-  password: YpZ4y0HN2LNSaGRIqNPIBBwJNH 
-  host: ec2-23-23-237-146.compute-1.amazonaws.com
+  username: ubuntu 
+  password: ubuntu 
+  host: localhost
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: d2ppb09cpu8f35
+  database: mydatabase
   pool: 5
-  username: cyvjzbxgqmenyb 
-  password: ubuntu 
+  username: ubuntu 
+  password: ubuntu  
