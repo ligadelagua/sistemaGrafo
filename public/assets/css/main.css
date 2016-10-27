@@ -39,9 +39,11 @@
 }
 
 .boton {
+	position: relative;
 	background: rgba(29, 157, 116,0.8);
 	color: rgba(255,255,255,255);
-	height: 10%;
+	height: 5%;
+	margin-top: 42%
 }
 
 /* Ocultar campos*/
@@ -384,15 +386,18 @@
 				}
 				
 				#orgDescripcion{
-					font-size: 1.25rem;
+					position: relative;
+					font-size: 1.2rem;
 					height: 5%;
-				 
+				 	margin-top: 33%
 				}
 				
 				#descripcion{
-					font-size: 0.8rem;
-					margin: 3em 1em 1em 1em;
-					height: 40%;
+					position: relative;
+					text-align: center;
+					font-size: 0.6rem;
+					margin-top: 6%;
+					height: 35%;
 				}
 
 			#footer .inner .copyright ul {

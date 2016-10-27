@@ -6,7 +6,7 @@ ActiveAdmin.setup do |config|
   # Set the title that is displayed on the main layout
   # for each of the active admin pages.
   #
-  config.site_title = "ISF"
+  config.site_title = "Liga del agua"
   config.site_title_image = "missing.png"
 
   # Set the link url for the title. For example, to take

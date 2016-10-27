@@ -19,19 +19,14 @@
     border-radius:0 0 2px 2px;
     height: 45%;
 }
-.card .card-image {
-    position:relative
-}
+
 .card .card-image img {
     display:block;
     border-radius:2px 2px 0 0;
-    position:relative;
-    left:0;
-    right:0;
-    top:0;
-    bottom:0;
+    position: absolute;
     width: 100%;
-    max-height: 290px;
+    height: 37%;
+
 }
 .card-panel {
     transition:box-shadow .25s;
@@ -41,7 +36,6 @@
     background-color:#fff
 }
 .card {
-    position:relative;
     margin:0.5rem 0 1rem 0;
     background-color:#fff;
     transition:box-shadow .25s;
