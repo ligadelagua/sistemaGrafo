@@ -415,7 +415,8 @@
 		height: 100%;
 		background-image: url('/assets/background.jpg');
 		background-position: center;
-		background-size:cover
+		background-size:cover;
+		zoom:70%;
 	}
 
 	.node-info {
