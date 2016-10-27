@@ -29,11 +29,11 @@
 	
 .scrollbar{
 	overflow-y: scroll ;
-	position: fixed;
-	top: 51.5%;
-	left: 30%;
-	height: 28%;
-	width: 40%;
+	position: relative;
+	top: 20%;
+	left: 10%;
+	height: 80%;
+	width: 80%;
 	background: rgb(255, 255, 255, 0.5);
 	margin: 1em 1em 1em 1em; 
 }
@@ -395,7 +395,7 @@
 				#descripcion{
 					position: relative;
 					text-align: center;
-					font-size: 0.6rem;
+					font-size: 0.8rem;
 					margin-top: 5%;
 					height: 35%;
 				}
@@ -416,7 +416,6 @@
 		background-image: url('/assets/background.jpg');
 		background-position: center;
 		background-size:cover;
-		zoom:70%;
 	}
 
 	.node-info {
