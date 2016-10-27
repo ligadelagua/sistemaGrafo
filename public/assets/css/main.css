@@ -43,7 +43,7 @@
 	background: rgba(29, 157, 116,0.8);
 	color: rgba(255,255,255,255);
 	height: 5%;
-	margin-top: 42%
+	margin-top: 35%
 }
 
 /* Ocultar campos*/
@@ -389,14 +389,14 @@
 					position: relative;
 					font-size: 1.2rem;
 					height: 5%;
-				 	margin-top: 33%
+				 	margin-top: 28%
 				}
 				
 				#descripcion{
 					position: relative;
 					text-align: center;
 					font-size: 0.6rem;
-					margin-top: 6%;
+					margin-top: 5%;
 					height: 35%;
 				}
 
