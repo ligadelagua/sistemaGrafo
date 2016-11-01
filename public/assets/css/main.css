@@ -389,7 +389,7 @@
 					position: relative;
 					font-size: 1.2rem;
 					height: 5%;
-				 	margin-top: 28%
+				 	margin-top: 28%;
 				}
 				
 				#descripcion{
@@ -399,6 +399,7 @@
 					margin-top: 5%;
 					height: 35%;
 				}
+				
 
 			#footer .inner .copyright ul {
 				border-bottom: 1px solid rgba(255, 255, 255, 0.15);
@@ -413,9 +414,11 @@
 
 	#network {
 		height: 100%;
-		background-image: url('/assets/background.jpg');
+		background-image:url('/assets/background.jpg');
 		background-position: center;
 		background-size:cover;
+		box-shadow: inset 0px 0px 250px 80px rgba(0,0,0,0.8);
+ 
 	}
 
 	.node-info {
@@ -470,6 +473,7 @@
 									   color-stop(0.72, rgb(73,125,189)),
 									   color-stop(0.86, rgb(28,58,148)));
 }
+
 
 
 

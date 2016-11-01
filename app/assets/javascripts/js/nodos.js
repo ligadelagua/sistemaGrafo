@@ -118,12 +118,12 @@ function getScaleFreeNetwork(nodeCount) {
   height: '100%',
   width: '100%',
   interaction: {
-    tooltipDelay: 100,
+    tooltipDelay: 500,
     hover: false
   },
   nodes: {
           borderWidth:4,
-          size:30,
+          size:50,
         color: {
             border: '#222222',
             background: '#666666'
