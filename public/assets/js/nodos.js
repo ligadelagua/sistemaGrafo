@@ -108,10 +108,10 @@ function showInfoCard(params) {
     for (pos = 0; pos < (nomsC.length); pos++) {
       if ((orgs1[pArco] + " + " + orgs2[pArco]) == nomsC[pos]) {
         if (urlsC[pos] != "") {  
-          newHTML.push('<a class="icon2 fa-picture-o" href=' + urlsC[pos] + ' target="_new">' + &nbsp; +titulosC[pos] + '</a>' + '<br>');
+          newHTML.push('<a class="icon2 fa-picture-o" href=' + urlsC[pos] + ' target="_new">' + '&nbsp;' + titulosC[pos] + '</a>' + '<br>');
         }
         if (uploadC[pos].defaultValue != "missing.png") {
-          newHTML.push('<a class="icon2 fa-external-link" href=' + uploadC[pos].defaultValue + ' target="_new">' + &nbsp; + titulosC[pos] + '</a>' + '<br>');
+          newHTML.push('<a class="icon2 fa-external-link" href=' + uploadC[pos].defaultValue + ' target="_new">' + '&nbsp;' + titulosC[pos] + '</a>' + '<br>');
         }
       }
       recursos.html(newHTML.join(""));
@@ -127,10 +127,10 @@ function showInfoCard(params) {
     for (pos = 0; pos < (nomsO.length); pos++) {
       if ((organizaciones[pNodo]) == nomsO[pos]) {
         if (urlsO[pos] != "") {
-          newHTML.push('<a class="icon2 fa-picture-o" href=' + urlsO[pos] + ' target="_new">' + &nbsp; + titulosO[pos] + '</a>' + '<br>');
+          newHTML.push('<a class="icon2 fa-picture-o" href=' + urlsO[pos] + ' target="_new">' + '&nbsp;' + titulosO[pos] + '</a>' + '<br>');
         }
         if (uploadO[pos].defaultValue != "missing.png") {
-          newHTML.push('<a class="icon2 fa-external-link" href=' + uploadO[pos].defaultValue + &nbsp; + ' target="_new">' + titulosO[pos] + '</a>' + '<br>');
+          newHTML.push('<a class="icon2 fa-external-link" href=' + uploadO[pos].defaultValue + '&nbsp;' + ' target="_new">' + titulosO[pos] + '</a>' + '<br>');
         }
       }
       recursos.html(newHTML.join(""));
