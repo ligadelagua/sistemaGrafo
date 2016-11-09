@@ -112,8 +112,20 @@
 	}
 	
 	.icon2 {
+		text-decoration: none;
+		border: none;
+		position: relative;
+	}
+	.icon2:before {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		text-transform: none !important;
 		font-size: 20px;
 	}
+	
 	.icon > .label {
 		display: none;
 	}
@@ -421,7 +433,7 @@
 		background-image:url('/assets/background.jpg');
 		background-position: center;
 		background-size:cover;
-		box-shadow: inset 0em 0em 30em 10em rgba(0,0,0,0.8);
+		box-shadow: inset 0em 0em 30em 2em rgba(0,0,0,0.8);
 	}
 
 	.node-info {
