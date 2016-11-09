@@ -402,11 +402,11 @@
 				}
 				
 				#orgDescripcion{
-					position: fixed;
+					position: relative;
 					font-size: 1.2rem;
 					height: 5%;
 				 	margin-top: 35%;
-				 	margin-bottom: -20px;
+				 	margin-bottom: 10%;
 				}
 				
 				#descripcion{
