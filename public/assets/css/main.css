@@ -435,9 +435,9 @@
 		background-size:cover;
 		
 		
-		-webkit-box-shadow: inset 18px -2px 122px 84px rgba(0,0,0,0.52);
-		-moz-box-shadow: inset 18px -2px 122px 84px rgba(0,0,0,0.52);
-		box-shadow: inset 18px -2px 122px 84px rgba(0,0,0,0.52);
+		-webkit-box-shadow: inset 14px -11px 131px 115px rgba(15,14,15,0.63);
+		-moz-box-shadow: inset 14px -11px 131px 115px rgba(15,14,15,0.63);
+		box-shadow: inset 14px -11px 131px 115px rgba(15,14,15,0.63);
 	}
 
 	.node-info {
