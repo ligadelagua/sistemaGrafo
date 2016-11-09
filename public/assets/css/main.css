@@ -433,7 +433,7 @@
 		background-image:url('/assets/background.jpg');
 		background-position: center;
 		background-size:cover;
-		box-shadow: inset 0em 0em 30em 2em rgba(0,0,0,0.8);
+		box-shadow: inset 0em 0em 70em 2em rgba(0,0,0,0.8);
 	}
 
 	.node-info {
