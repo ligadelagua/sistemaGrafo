@@ -433,7 +433,11 @@
 		background-image:url('/assets/background.jpg');
 		background-position: center;
 		background-size:cover;
-		box-shadow: inset 0em 0em 70em 2em rgba(0,0,0,0.8);
+		
+		
+		-webkit-box-shadow: inset 18px -2px 122px 84px rgba(0,0,0,0.52);
+		-moz-box-shadow: inset 18px -2px 122px 84px rgba(0,0,0,0.52);
+		box-shadow: inset 18px -2px 122px 84px rgba(0,0,0,0.52);
 	}
 
 	.node-info {
