@@ -2,6 +2,7 @@ class RecursoO < ActiveRecord::Base
     has_attached_file :recursoUpload, 
         default_url: "missing.png"
         
+        
     validates_attachment :recursoUpload, 
         content_type:{content_type:["image/jpg","image/jpeg","image/png",
         "video/mp4","video/lfv","video/avi","video/mp4","video/wmv"]},

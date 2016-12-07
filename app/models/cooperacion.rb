@@ -3,6 +3,7 @@ class Cooperacion < ActiveRecord::Base
     
     has_attached_file :banner, 
         default_url: "missing.png"
+        
     validates_attachment :banner, 
         content_type:{content_type:["image/jpg","image/jpeg","image/png"]},
         size: { in: 0..1000.kilobytes }

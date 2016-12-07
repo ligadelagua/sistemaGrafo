@@ -25,11 +25,15 @@ gem 'activeadmin', github: 'activeadmin'
 gem 'devise'
 gem 'active_skin'
 gem 'pg'
-gem 'paperclip'
+# gem 'paperclip'
+gem 'paperclip', '~>  5.1.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 gem 'bundler'
 gem 'rails_12factor', group: :production
+gem 'paperclip-googledrive-new'
+gem 'google-api-client', '0.7.1', require: 'google/api_client'
+gem 'google_drive'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
