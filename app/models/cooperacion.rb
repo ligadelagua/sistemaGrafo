@@ -2,7 +2,14 @@ class Cooperacion < ActiveRecord::Base
     has_one :organizacion
     
     has_attached_file :banner, 
-        default_url: "missing.png"
+        :storage => :google_drive,
+        :google_drive_credentials => "#{Rails.root}/config/google_drive.yml",
+        :google_drive_options => {
+            :public_folder_id => "0BxckPDmdZqdpYWgzbnVwUEhPVVU",
+            :default_image => "missing.png", 
+            :path => proc { |style| "#{style}_#{id}_#{banner.original_filename}"
+        }
+    }
         
     validates_attachment :banner, 
         content_type:{content_type:["image/jpg","image/jpeg","image/png"]},
